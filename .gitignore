@@ -1,0 +1,3 @@
+installers/windows/script.iss
+installers/windows/external-tools/*
+installers/windows/build/*
