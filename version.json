@@ -1,7 +1,7 @@
 {
-    "version": 0.1,
+    "version": 0.2,
     "description": [
         "Minor Bug Fixes"
     ],
-    "windwos_file_name": "installers\\windows\\setup.exe"
+    "windows_file_name": "installers\\windows\\setup.exe"
 }
