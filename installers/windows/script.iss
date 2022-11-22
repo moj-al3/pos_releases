@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "EFatoraa"
-#define MyAppVersion "0.2"
+#define MyAppVersion "0.5"
 #define MyAppPublisher "E-Fatoraa"
 #define MyAppURL "https://www.efatoraa.com"
 #define MyAppExeName "code.exe"
@@ -37,8 +37,6 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 [Files]
 Source: "build\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
 Source: "build\flutter_windows.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "build\screen_retriever_plugin.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "build\window_manager_plugin.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "build\data"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "build\data\*"; DestDir: "{app}\data"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "external-tools\custom_printer.exe"; DestDir: "{app}"; Flags: ignoreversion
