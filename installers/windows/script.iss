@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "EFatoraa"
-#define MyAppVersion "0.91"
+#define MyAppVersion "0.92"
 #define MyAppPublisher "E-Fatoraa"
 #define MyAppURL "https://www.efatoraa.com"
 #define MyAppExeName "code.exe"
@@ -41,6 +41,7 @@ Source: "build\data"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs crea
 Source: "build\data\*"; DestDir: "{app}\data"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "external-tools\custom_printer.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "external-tools\wkhtmltox.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "external-tools\print_script.bat"; DestDir: "{app}"; Flags: ignoreversion
 
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
