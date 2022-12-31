@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "EFatoraa"
-#define MyAppVersion "0.93"
+#define MyAppVersion "0.95"
 #define MyAppPublisher "E-Fatoraa"
 #define MyAppURL "https://www.efatoraa.com"
 #define MyAppExeName "code.exe"
@@ -55,7 +55,7 @@ ChangesEnvironment=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 OutputDir=.
-OutputBaseFilename=setup
+OutputBaseFilename=EFATORAA_INSTALLER
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
