@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "EFatoraa"
-#define MyAppVersion "0.95"
+#define MyAppVersion "1"
 #define MyAppPublisher "E-Fatoraa"
 #define MyAppURL "https://www.efatoraa.com"
 #define MyAppExeName "code.exe"
