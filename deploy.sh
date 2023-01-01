@@ -23,7 +23,7 @@ echo $LINE
 
 echo "Task: Building the app files"
 cd $FLUTTER_APP_PATH
-# flutter build windows
+flutter build windows
 echo $LINE
 
 echo "Task: Copy the new build data to the installer DIR"
@@ -38,7 +38,7 @@ sed -i 's/"version": .*,/"version": '$NEW_VERSION',/g' $VERSION_JSON_PATH
 echo $LINE
 
 echo "Task: Build installer"
-# iscc.exe $INSTALLER_SCRIPT_PATH
+iscc.exe $INSTALLER_SCRIPT_PATH
 echo $LINE
 
 echo "Task: push the new version"
