@@ -1,9 +1,9 @@
 #!/bin/bash
 
 LINE="=============================================="
-FLUTTER_APP_PATH="C:\Users\mojtaba.amer\Documents\Flutter\pos_mobile\code"
-RELEASE_PATH="C:\Users\mojtaba.amer\Documents\Flutter\pos_mobile\Release" 
-FLUTTER_APP_VERSION_PATH="C:\Users\mojtaba.amer\Documents\Flutter\pos_mobile\code\lib\core\controller\update_controller.dart"
+FLUTTER_APP_PATH="C:\Users\mojtaba\Documents\Flutter\pos_mobile\code"
+RELEASE_PATH="C:\Users\mojtaba\Documents\Flutter\pos_mobile\Release" 
+FLUTTER_APP_VERSION_PATH="C:\Users\mojtaba\Documents\Flutter\pos_mobile\code\lib\core\controller\update_controller.dart"
 VERSION_JSON_PATH=$RELEASE_PATH"\version.json"
 INSTALLER_SCRIPT_PATH=$RELEASE_PATH"\script.iss"
 RELEASE_BUILD_PATH=$RELEASE_PATH"\build"
