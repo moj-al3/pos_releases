@@ -3,7 +3,7 @@
 
 
 #define MyAppName "EFatoraa"
-#define MyAppVersion "1.04"
+#define MyAppVersion "1.1"
 #define MyAppPublisher "E-Fatoraa"
 #define MyAppURL "https://www.efatoraa.com"
 #define MyAppExeName "code.exe"
